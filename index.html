@@ -15,13 +15,13 @@
                 </div>
                     <p class="author-right">Photo de <a href="https://unsplash.com/fr/@joshuaearle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joshua Earle</a> sur <a href="https://unsplash.com/fr/photos/C6duwascOEA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
             </div>
-        <div class="form-section">
+        <form action="#" method="post">
             <div class="description">
                 <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
-                <p>Sign up <span>now</span> to get started.</p>
-                <p class="alone">You <span>Know</span> you want to.</p>
+                <p>Sign up <em>now</em> to get started.</p>
+                <p class="alone">You <em>know</em> you want to.</p>
             </div>
-            <form action="">
+            <div class="form-section">
                 <h1>Let's do this!</h1>
                 <div class="first-name">
                     <label for="firstName">first name</label>
@@ -37,7 +37,7 @@
                 </div>
                 <div class="phone">
                     <label for="phoneNumber">phone number</label>
-                    <input type="tel" id="phoneNumber" name="phone-number" required>
+                    <input type="tel" id="phoneNumber" name="phone-number" pattern="[0-9]{3}[0-9]{6}" required>
                 </div>
                 <div class="password">
                     <label for="password">password</label>
@@ -47,10 +47,10 @@
                     <label for="confirmPassword">confirm password</label>
                     <input type="password" id="confirmPassword" name="confirm-password" required>
                 </div>
-            </form>
+            </div>
             <button type="submit">Create Account</button>
             <p>Already have an account? <a href="">Log in</a></p>
-        </div>
+        </form>
     </div>
     
 </body>
